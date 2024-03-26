@@ -12,7 +12,6 @@ const authorRouter = require("./routes/author");
 const readBookRouter = require("./routes/readBook");
 const userRouter = require("./routes/user");
 const authCheck = require("./routes/authmiddleware");
-console.log(process.env.PORT || 5000)
 app.use(express.static("dist"));
 app.use(express.static("public/images"));
 app.use(express.static("public/books"));
